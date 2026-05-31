@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Virtual environment
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Raw data — large files don't belong in git
+data/raw/
+data/processed/
+
+# Environment variables (API keys etc.)
+.env
+
+# OS clutter
+.DS_Store
+Thumbs.db
